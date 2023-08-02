@@ -1,5 +1,6 @@
 
   import { useState } from "react";
+  import { AddCategory } from "./components/AddCategory";
   import Button from 'react-bootstrap/Button';
   import Form from 'react-bootstrap/Form';
   import InputGroup from 'react-bootstrap/InputGroup';
@@ -25,8 +26,11 @@
             {/* Title */}
             <h1>Gif App React</h1>
          
-            {/* Input */}
-            <input className="mb-3 b-5" />
+            {/* { Input */}
+
+            <AddCategory />
+
+             {/* <input className="mb-3 border border-dark w-25" />  */}
 
             {/* Listado fr Gifs */}
 
