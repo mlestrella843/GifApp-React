@@ -1,36 +1,34 @@
 import { useState } from 'react';
 
 
-export const AddCategory = () => {
-  
-   const [ inputValue, setInputValue ] = useState('One Punch');
+export const AddCategory = ({ setCategories }) => {
 
-   //Desestructuramos el evento sacando el target
+   const [ inputValue, setInputValue ] = useState('One Punch');
+  
    const onInputChange = ( {target} ) => {
-       // console.log(target.value);
          setInputValue(target.value);
    }
-
+  
    const onSubmit = (event) => {
         event.preventDefault();
-        console.log(inputValue);
+        if( inputValue.trim().length <= 1) return;
+
+
+        setCategories( categories => [ inputValue, ...categories ]);
+        setInputValue('');
 
    }
 
-
     return (
-
-            <form onSubmit={ (event) => onSubmit(event) }> 
+            <form onSubmit={ onSubmit }> 
                 <input
                     type="text"
                     placeholder="Buscar Gifs"   
                     value = { inputValue }  
-                    //En esta forma recibo el evento y lo envio como parametro
-                    //onChange = { (event) =>  onInputChange(event) }
-                    //Otra forma de hacerlo es haciendo referencia unicamente a la funcion la cual ya recibe el target
                     onChange = { onInputChange }
                 />  
             </form> 
 
         )
+
 }
