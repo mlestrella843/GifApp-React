@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './style.css';
+import './estilos.css';
+//import './style.css';
 import { GifApp } from './GifApp';
 
 
