@@ -2,8 +2,7 @@
   import { useState } from "react";
   import { AddCategory } from "./components/AddCategory";
   import { GifGrid } from "./components/GifGrid";
-  
-
+ 
   export const GifApp = () => {
 
       const [ categories, setCategories ] = useState(['One Punch']);
@@ -15,8 +14,8 @@
       }
       return (
         <>
-          <div className="container mt-1">   
-            <h1 className="mt-5">Gif App React</h1>
+          <div>   
+            <h1>Gif App React</h1>
             <br/>
             <AddCategory 
                 onNewCategory = { onAddCategory }              
