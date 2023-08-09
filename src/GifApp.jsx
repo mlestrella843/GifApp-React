@@ -5,7 +5,7 @@
  
   export const GifApp = () => {
 
-      const [ categories, setCategories ] = useState(['One Punch']);
+      const [ categories, setCategories ] = useState(['Iron Man']);
      
       const onAddCategory = ( newCategory ) => {
           //console.log( newCategory );
