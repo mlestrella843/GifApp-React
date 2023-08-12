@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React from 'react';
 
 export const GifItem = ( { title, url, id }) => {
   return (
@@ -8,6 +8,7 @@ export const GifItem = ( { title, url, id }) => {
         <img src= { url } alt={ title } />
         <h3> { title } </h3>
     </div>
-   
+
   )
+
 }

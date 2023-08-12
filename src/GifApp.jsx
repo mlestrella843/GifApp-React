@@ -13,7 +13,7 @@
       return (
         <>
           <div>   
-            <h1>Gif App React</h1>
+            <h3>Gif App React</h3>
             <br/>
             <AddCategory 
                 onNewCategory = { onAddCategory }              
