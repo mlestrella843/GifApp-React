@@ -8,10 +8,15 @@ export const GifGrid = ( { category }) => {
 
     return (
         <>
-            <h3>{ category}</h3>  
-            {
+            <div className="categoryTitle">
+                 <h5>{ category }</h5>  
+
+                 {
                 isLoading && ( <h2>is Loading...</h2>)
-            }
+                  }
+            </div>
+           
+            
             <div className="card-grid" >          
                 {
                     images.map( ( image ) => (

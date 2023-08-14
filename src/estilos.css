@@ -1,6 +1,7 @@
 * {
     font-family: 'Inter', sans-serif;
     background-color: #82CAFF;
+  
   }
   
   body {
@@ -26,7 +27,7 @@ button {
 }
 
 button span{
-  background-color: black;
+  background-color: navy;
   padding: 16px 24px;
   border-radius: 6px;
   transition: .3s;
@@ -40,18 +41,17 @@ button:active{
   transform: scale(0.9);
 }
 
-
-
 .titleInitial{
+  font-family: 'Inter', sans-serif;
   color: whitesmoke;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-bottom: 100px;
 }
 
   
   input {
-    align-items: center;
+    /* align-items: center; */
     background-color: white;
     border-radius: 5px;
     border: 1px solid rgb(97, 32, 158);
@@ -61,8 +61,35 @@ button:active{
     outline: none;
     padding: 10px 15px;
     width: 100%;
+    font-display: flex;
+    margin: auto;
   }
-  
+
+
+  h1 span {
+    display: block;
+    margin: auto;
+    align-items: center;
+    font-family: monospace;
+    font-size: 40px;
+    white-space: nowrap;
+    border-right: 4px;
+    width: 30ch;
+    color: #fff;
+    animation: typing 2s steps(15),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+
+  }
+
+  @keyframes typing{
+    from { width: 0;}
+  }
+
+  @keyframes blink{
+    50% { border-color: transparent ;}
+  }
+
   h2 {
     font-size: 1.5rem;
     font-family: 'Inter', sans-serif;
@@ -72,6 +99,16 @@ button:active{
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     margin-bottom: 7px;
+  }
+
+  .categoryTitle h5 {
+    margin-top: 3px;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+ 
+   
   }
   
   .card-grid {

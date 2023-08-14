@@ -4,7 +4,7 @@
  
   export const GifApp = () => {
 
-      const [ categories, setCategories ] = useState(['Iron Man']);
+      const [ categories, setCategories ] = useState([' Powerpuffs Girls']);
      
       const onAddCategory = ( newCategory ) => {
           if( categories.includes(newCategory) ) return; 
@@ -13,7 +13,7 @@
       return (
         <>
           <div>   
-            <h3>Gif App React</h3>
+            <h1> <span> Welcome to Gif App React! </span></h1>
             <br/>
             <AddCategory 
                 onNewCategory = { onAddCategory }              
