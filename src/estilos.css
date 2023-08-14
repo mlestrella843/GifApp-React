@@ -102,13 +102,10 @@ button:active{
   }
 
   .categoryTitle h5 {
-    margin-top: 3px;
     color: #fff;
     font-size: 3rem;
     text-align: center;
     font-family: 'Roboto', sans-serif;
- 
-   
   }
   
   .card-grid {
