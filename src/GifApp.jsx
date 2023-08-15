@@ -12,7 +12,7 @@
       }
       return (
         <>
-          <div>   
+          <div className="container">   
             <h1> <span> Welcome to Gif App React! </span></h1>
             <br/>
             <AddCategory 
@@ -27,7 +27,6 @@
                     />                  
                   ))                  
             } 
-
           </div>         
         </>
       )
