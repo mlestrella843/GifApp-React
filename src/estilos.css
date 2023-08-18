@@ -1,7 +1,6 @@
 * {
     font-family: 'Inter', sans-serif;
     background-color: #82CAFF;
-  
   }
   
   body {
@@ -41,19 +40,17 @@ button:active{
   transform: scale(0.9);
 }
 
-
   input {
-    /* align-items: center; */
     background-color: white;
     border-radius: 5px;
     border: 1px solid rgb(97, 32, 158);
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
-    outline: none;
+    /* outline: none; */
     padding: 10px 15px;
-    width: 100%;
-    font-display: flex;
+    width: 80%;
+    display: flex;
     margin: auto;
   }
 
@@ -92,7 +89,7 @@ button:active{
     margin-bottom: 7px;
   }
 
-  .categoryTitle h5 {
+  .categoryTitle {
     color: #fff;
     font-size: 3rem;
     text-align: center;
