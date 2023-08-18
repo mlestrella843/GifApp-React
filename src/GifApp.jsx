@@ -12,8 +12,10 @@
       }
       return (
         <>
-          <div className="container">   
-            <h1> <span> Welcome to Gif App React! </span></h1>
+          <div>   
+            <div className="titleApp">
+               <h1>Gif App React</h1>
+            </div>        
             <br/>
             <AddCategory 
                 onNewCategory = { onAddCategory }              

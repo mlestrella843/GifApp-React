@@ -7,7 +7,7 @@
     margin: 60px;
   }
 
-button {
+/* button {
     display: flex;
     margin: auto;
     border: 0;
@@ -23,9 +23,9 @@ button {
     padding: 4px;
     cursor: pointer;
     transition: .3s;
-}
+} */
 
-button span{
+/* button span{
   background-color: navy;
   padding: 16px 24px;
   border-radius: 6px;
@@ -38,7 +38,7 @@ button:hover span{
 
 button:active{
   transform: scale(0.9);
-}
+} */
 
   input {
     background-color: white;
@@ -54,20 +54,14 @@ button:active{
     margin: auto;
   }
 
-  h1 span {
-    display: block;
-    margin: auto;
-    align-items: center;
-    font-family: monospace;
-    font-size: 40px;
-    white-space: nowrap;
-    border-right: 4px;
-    width: 30ch;
-    color: #fff;
-    animation: typing 2s steps(15),
-    blink .5s infinite step-end alternate;
-    overflow: hidden;
 
+  .titleApp{
+    text-align: center;
+  }
+  .titleApp h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    color: #fff;
   }
 
   @keyframes typing{
