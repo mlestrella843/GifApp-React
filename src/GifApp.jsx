@@ -13,7 +13,7 @@
       return (
         <>
           <div>   
-            <div className="titleApp">
+            <div className="titleAppNeon">
                <h1>Gif App React</h1>
             </div>        
             <br/>
