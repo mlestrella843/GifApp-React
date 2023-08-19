@@ -118,3 +118,17 @@
     height: 300px;
   }
   
+  /* MediaQueries for mobile  */
+
+  @media(width < 600px){
+    .titleAppNeon h1{
+      font-size: 2rem;
+    }
+  }
+
+  @media(width < 600px){
+    .categoryTitle{
+      font-size: 2.5rem;
+    }
+  }
+
