@@ -7,7 +7,6 @@
     margin: 60px;
   }
 
-  
   input {
     background-color: white;
     border-radius: 5px;
@@ -31,12 +30,6 @@
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
-    transition: .3s linear;
-    color: transparent;
-    -webkit-text-stroke: 2px red;
-  }
-
-  .titleAppNeon h1:hover{
     color: red;
     text-shadow: 0 0 10px rgba(255, 0, 0, .5),
                  0 0 20px rgba(255, 0, 0, .5),
@@ -44,6 +37,12 @@
                  0 0 80px rgba(255, 0, 0, .5),
                  0 0 160px rgba(255, 0, 0, .5),
                  0 0 320px rgba(255, 0, 0, .5);
+  }
+
+  .titleAppNeon h1:hover{
+    transition: .3s linear;
+    color: transparent;
+    -webkit-text-stroke: 2px red;
   }
 
   @keyframes typing{
@@ -66,23 +65,25 @@
   }
 
   .categoryTitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
     color: #fff;
-    font-size: 3rem;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-  }
-
-  .categoryTitle:hover{
-    color: navy;
     cursor: pointer;
-    transition: .3s linear;
-    font-family: 'Roboto', sans-serif;
-    color: red;
+    text-align: center;
+    color: pink;
     text-shadow: 0 0 10px rgba(255, 0, 0, .5),
                  0 0 20px rgba(255, 0, 0, .5),
                  0 0 40px rgba(255, 0, 0, .5),
+                 0 0 80px rgba(255, 0, 0, .5),
+                 0 0 160px rgba(255, 0, 0, .5),
+                 0 0 320px rgba(255, 0, 0, .5);
 
+  }
+
+  .categoryTitle:hover{
+    transition: .3s linear;
+    color: transparent;
+    -webkit-text-stroke: 2px red;
   }
   
   .card-grid {
